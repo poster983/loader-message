@@ -1,0 +1,162 @@
+[
+	{
+		"phrase": "",
+		"source": {
+			"user": "",
+			"via": "",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "the architects are still drafting",
+		"source": {
+			"user": "Adam Rosenfield",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "the bits are breeding",
+		"source": {
+			"user": "Adam Rosenfield",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "would you prefer chicken, steak, or tofu?",
+		"source": {
+			"user": "Adam Rosenfield",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "would you like fries with that?",
+		"source": {
+			"user": "Adam Rosenfield",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "checking the gravitational constant in your locale",
+		"source": {
+			"user": "Adam Rosenfield",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "we're testing your patience",
+		"source": {
+			"user": "Adam Rosenfield",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "dig on the 'X' for buried treasure... ARRR!",
+		"source": {
+			"user": "Adam Rosenfield",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "while the satellite moves into position",
+		"source": {
+			"user": "Adam Rosenfield",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "at least you're not on hold",
+		"source": {
+			"user": "Adam Rosenfield",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "Do you suffer from ADHD? Me neith- oh look a bunny... What was I doing again? Oh, right. Here we go.",
+		"source": {
+			"user": "Rob Allen",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "Testing data on Timmy... ... ... We're going to need another Timmy.",
+		"source": {
+			"user": "Rob Allen",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "My other load screen is much faster. You should try that one instead.",
+		"source": {
+			"user": "Rob Allen",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "The version I have of this in testing has much funnier load screens.",
+		"source": {
+			"user": "Rob Allen",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "Loading humorous message ... Please Wait",
+		"source": {
+			"user": "WebDude",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "Warming up Large Hadron Collider...",
+		"source": {
+			"user": "seuvitor",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+]

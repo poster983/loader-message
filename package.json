@@ -1,0 +1,24 @@
+{
+  "name": "loader-message",
+  "version": "1.0.0",
+  "description": "NodeJS Module / Repository for delivering silly phrases to a loading screen near you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poster983/loader-message.git"
+  },
+  "keywords": [
+    "loader",
+    "gen",
+    "phrase"
+  ],
+  "author": "Joseph Hassell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poster983/loader-message/issues"
+  },
+  "homepage": "https://github.com/poster983/loader-message#readme"
+}
