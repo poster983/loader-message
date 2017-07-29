@@ -100,7 +100,7 @@
 		}
 	},
 	{
-		"phrase": "Do you suffer from ADHD? Me neith- oh look a bunny... What was I doing again? Oh, right. Here we go.",
+		"phrase": "Do you suffer from ADHD? Me neith- oh look a bunny... What   I doing again? Oh, right. Here we go.",
 		"source": {
 			"user": "Rob Allen",
 			"via": "Stack Overflow",

@@ -315,6 +315,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "phrases/loading.json",
+			"settings":
+			{
+				"buffer_size": 2752,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 1504,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -357,10 +375,15 @@
 	},
 	"expanded_folders":
 	[
-		"/home/joseph/Documents/Code/GitKraken/loader-message"
+		"/home/joseph/Documents/Code/GitKraken/loader-message",
+		"/home/joseph/Documents/Code/GitKraken/loader-message/generation",
+		"/home/joseph/Documents/Code/GitKraken/loader-message/phrases"
 	],
 	"file_history":
 	[
+		"/home/joseph/Documents/Code/GitKraken/loader-message/generation/adjective.js",
+		"/home/joseph/Documents/Code/GitKraken/loader-message/generation/pluralNoun.js",
+		"/home/joseph/Documents/Code/GitKraken/loader-message/generation/verbING.js",
 		"/home/joseph/Documents/passporthasmoved.html",
 		"/home/joseph/Documents/Code/GitKraken/Passport-Live/routes/api/account.js",
 		"/home/joseph/Documents/Code/GitKraken/Passport-Live/package.json",
@@ -511,14 +534,71 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "phrases/loading.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2552,
+								2552
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2040.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1438,
+								1438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 70.0
 	},
 	"input":
 	{
