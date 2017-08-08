@@ -4,7 +4,7 @@
   "description": "Lightweight NodeJS Module / Repository for delivering silly phrases to a loading screen near you",
   "main": "index.js",
   "scripts": {
-    "prepublish": "npm test",
+    "prepare": "npm test",
     "pretest": "node build.js",
     "test": "mocha"
   },
