@@ -25,7 +25,7 @@ SOFTWARE.
 var noun = require("./generation/pluralNoun");
 var adjective = require("./generation/adjective");
 var verb = require("./generation/verbING");
-
+var loadingPhrases = require("./phrases/loading.json")
 
 exports.generate = function() {
 	var nl = Math.floor(Math.random() * noun.length) + 0;
@@ -37,9 +37,7 @@ exports.generate = function() {
 /**
   * 
   */
-  var lPl = Math.floor(Math.random() * loadingPhrase.length) + 0;
-	console.log(loadingPhrase[lPl]);
 exports.phrases = function() {
-	var lPl = Math.floor(Math.random() * loadingPhrase.length) + 0;
-	return loadingPhrase[lPl];
+	var lPl = Math.floor(Math.random() * loadingPhrases.length) + 0;
+	return loadingPhrases[lPl];
 }
