@@ -1,4 +1,4 @@
-[
+module.exports = [
 	{
 		"phrase": "",
 		"source": {
@@ -21,6 +21,16 @@
 	},
 	{
 		"phrase": "the bits are breeding",
+		"source": {
+			"user": "Adam Rosenfield",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	},
+	{
+		"phrase": "and enjoy the elevator music",
 		"source": {
 			"user": "Adam Rosenfield",
 			"via": "Stack Overflow",
@@ -159,4 +169,15 @@
 			"nsfw": false
 		}
 	},
-]
+	{
+		"phrase": "Commencing infinite loop (this may take some time)",
+		"source": {
+			"user": "Jonta",
+			"via": "Stack Overflow",
+		},
+		"tags": {
+			"nsfw": false
+		}
+	}
+	
+];

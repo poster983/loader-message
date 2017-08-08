@@ -25,13 +25,23 @@ SOFTWARE.
 var noun = require("./generation/pluralNoun");
 var adjective = require("./generation/adjective");
 var verb = require("./generation/verbING");
+var loadingPhrase = require("./phrases/loading");
 
-var nl = Math.floor(Math.random() * noun.length) + 0;
-var al = Math.floor(Math.random() * adjective.length) + 0;
-var vl = Math.floor(Math.random() * verb.length) + 0;
-console.log(verb[vl] + " " + adjective[al] + " " + noun[nl]);
 
-exports.generate = function(done) {
 
-	console.log()
+exports.generate = function() {
+	var nl = Math.floor(Math.random() * noun.length) + 0;
+	var al = Math.floor(Math.random() * adjective.length) + 0;
+	var vl = Math.floor(Math.random() * verb.length) + 0;
+	return verb[vl] + " " + adjective[al] + " " + noun[nl];
+}
+
+/**
+  * 
+  */
+  var lPl = Math.floor(Math.random() * loadingPhrase.length) + 0;
+	console.log(loadingPhrase[lPl]);
+exports.phrases = function() {
+	var lPl = Math.floor(Math.random() * loadingPhrase.length) + 0;
+	return loadingPhrase[lPl];
 }
