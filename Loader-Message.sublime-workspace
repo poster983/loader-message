@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"loading",
+				"loadingPhrase"
+			],
+			[
 				"p",
 				"password"
 			],
@@ -316,11 +320,19 @@
 	"buffers":
 	[
 		{
-			"file": "phrases/loading.json",
+			"file": "phrases/loading.js",
 			"settings":
 			{
-				"buffer_size": 2752,
+				"buffer_size": 3105,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "generation/adjective.js",
+			"settings":
+			{
+				"buffer_size": 115,
 				"line_ending": "Unix"
 			}
 		},
@@ -328,7 +340,7 @@
 			"file": "index.js",
 			"settings":
 			{
-				"buffer_size": 1504,
+				"buffer_size": 1774,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -375,9 +387,9 @@
 	},
 	"expanded_folders":
 	[
-		"/home/joseph/Documents/Code/GitKraken/loader-message",
-		"/home/joseph/Documents/Code/GitKraken/loader-message/generation",
-		"/home/joseph/Documents/Code/GitKraken/loader-message/phrases"
+		"/C/Users/josep/Documents/GitKraken/loader-message",
+		"/C/Users/josep/Documents/GitKraken/loader-message/generation",
+		"/C/Users/josep/Documents/GitKraken/loader-message/phrases"
 	],
 	"file_history":
 	[
@@ -464,7 +476,7 @@
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -534,52 +546,53 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "phrases/loading.json",
+					"file": "phrases/loading.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2752,
+						"buffer_size": 3105,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2552,
-								2552
+								1468,
+								1468
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2040.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "index.js",
-					"semi_transient": false,
+					"file": "generation/adjective.js",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1504,
+						"buffer_size": 115,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1438,
-								1438
+								0,
+								14
 							]
 						],
 						"settings":
@@ -590,7 +603,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1647,
+								1647
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -598,7 +639,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 70.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -635,7 +676,7 @@
 	"project": "Loader-Message.sublime-project",
 	"replace":
 	{
-		"height": 114.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

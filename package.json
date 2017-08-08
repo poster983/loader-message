@@ -4,7 +4,9 @@
   "description": "NodeJS Module / Repository for delivering silly phrases to a loading screen near you",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "npm test",
+    "pretest": "node build.js",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/poster983/loader-message/issues"
   },
-  "homepage": "https://github.com/poster983/loader-message#readme"
+  "homepage": "https://github.com/poster983/loader-message#readme",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
 }

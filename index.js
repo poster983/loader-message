@@ -25,8 +25,6 @@ SOFTWARE.
 var noun = require("./generation/pluralNoun");
 var adjective = require("./generation/adjective");
 var verb = require("./generation/verbING");
-var loadingPhrase = require("./phrases/loading");
-
 
 
 exports.generate = function() {
