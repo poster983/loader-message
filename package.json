@@ -1,7 +1,7 @@
 {
   "name": "loader-message",
   "version": "1.0.0",
-  "description": "NodeJS Module / Repository for delivering silly phrases to a loading screen near you",
+  "description": "Lightweight NodeJS Module / Repository for delivering silly phrases to a loading screen near you",
   "main": "index.js",
   "scripts": {
     "prepublish": "npm test",
