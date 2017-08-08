@@ -37,7 +37,7 @@ exports.generate = function() {
 /**
   * 
   */
-exports.phrases = function() {
+exports.phrase = function() {
 	var lPl = Math.floor(Math.random() * loadingPhrases.length) + 0;
 	return loadingPhrases[lPl];
 }

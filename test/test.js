@@ -4,6 +4,7 @@ var loadingPhrases = require("../phrases/loading.json");
 var genAdj = require("../generation/adjective.js");
 var genNoun = require("../generation/pluralNoun.js");
 var genVerb = require("../generation/verbING.js");
+var index = require("../index.js")
 
 
 context("Preset", function() {
@@ -114,6 +115,21 @@ context("Generation", function() {
 					done();
 				}
 			}
+		})
+	})
+})
+
+context("Main Module", function() {
+	describe("Generation function", function() {
+		it("returns a string", function(done) {
+			assert.isString(index.generate());
+			done();
+		})
+	})
+	describe("Preset phrases function", function() {
+		it("returns a string", function(done) {
+			assert.isString(index.phrase());
+			done();
 		})
 	})
 })

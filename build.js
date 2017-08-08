@@ -1,3 +1,4 @@
+//credit: NPM
 var fs       = require("fs")
 var infile   = __dirname + '/phrases/loading.txt'
 var outfile_pre  = __dirname + '/phrases/loading'
