@@ -37,7 +37,16 @@ exports.generate = function() {
 /**
   * 
   */
-exports.phrase = function() {
+exports.phrase = function(opt) {
+	var defaultOpt = {
+		includePleaseWait: true, 
+		includeNSFW: false
+	}
+	opt = Object.assign({},defaultOpt, opt);
+
+	if(opt.includePleaseWait) {
+		
+	}
 	var lPl = Math.floor(Math.random() * loadingPhrases.length) + 0;
-	return loadingPhrases[lPl];
+	return loadingPhrases[lPl].phrase;
 }

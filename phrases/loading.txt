@@ -16,7 +16,7 @@ Loading ... Please Wait Attentively (which is what you agreed to in the Terms an
 Loading completed. Press F13 to continue.
 Loading humorous message ... Please Wait
 My other load screen is much faster. You should try that one instead.
-null
+null  
 Please be patient. The program should finish loading in six to eight weeks business weeks.
 Please count to 10...
 Please don't move...
