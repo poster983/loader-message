@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ret",
+				"returner"
+			],
+			[
+				"json",
+				"jsonTemplate"
+			],
+			[
 				"gen",
 				"Generation"
 			],
@@ -354,7 +362,7 @@
 			"file": "index.js",
 			"settings":
 			{
-				"buffer_size": 1678,
+				"buffer_size": 1928,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -363,9 +371,27 @@
 			"file": "phrases/loading.txt",
 			"settings":
 			{
-				"buffer_size": 3303,
+				"buffer_size": 3305,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "phrases/loading.json",
+			"settings":
+			{
+				"buffer_size": 9019,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "build.js",
+			"settings":
+			{
+				"buffer_size": 1370,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -428,7 +454,8 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/josep/Documents/GitKraken/loader-message"
+		"/C/Users/josep/Documents/GitKraken/loader-message",
+		"/C/Users/josep/Documents/GitKraken/loader-message/phrases"
 	],
 	"file_history":
 	[
@@ -615,13 +642,14 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -649,7 +677,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -665,8 +693,8 @@
 						"selection":
 						[
 							[
-								769,
-								769
+								47,
+								47
 							]
 						],
 						"settings":
@@ -679,7 +707,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -688,15 +716,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1678,
+						"buffer_size": 1928,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1284,
-								1292
+								1584,
+								1584
 							]
 						],
 						"settings":
@@ -704,10 +732,10 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 319.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -716,15 +744,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3303,
+						"buffer_size": 3305,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								626,
-								626
+								1202,
+								1202
 							]
 						],
 						"settings":
@@ -732,7 +760,7 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 654.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -740,6 +768,66 @@
 				},
 				{
 					"buffer": 5,
+					"file": "phrases/loading.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8565,
+								8569
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7453.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "build.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								757,
+								757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": ".travis.yml",
 					"semi_transient": false,
 					"settings":
@@ -765,11 +853,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "README.md",
 					"semi_transient": false,
 					"settings":
@@ -793,7 +881,7 @@
 						"translation.y": 70.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]

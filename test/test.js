@@ -18,15 +18,15 @@ context("Preset", function() {
 				assert.isNotEmpty(loadingPhrases);
 				done();
 			})
-			it("only has strings", function(done) {
+			it("only has objects", function(done) {
 				for(var i = 0 ; i < loadingPhrases.length; i++) {
-					assert.isString(loadingPhrases[i]);
+					assert.isObject(loadingPhrases[i]);
 					if(i >= loadingPhrases.length -1) {
 						done();
 					}
 				}
 			})
-			it("does not have empty strings", function(done) {
+			it("the object is not empty", function(done) {
 				for(var i = 0 ; i < loadingPhrases.length; i++) {
 					assert.isNotEmpty(loadingPhrases[i]);
 					if(i >= loadingPhrases.length -1) {

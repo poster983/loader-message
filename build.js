@@ -13,15 +13,15 @@ var list = fs
   .readFileSync(infile, 'utf8')
   .split("\n") //make it an array
   .map(function(e) { //compile to json
-    return {phrase: e, includePleaseWait: false, tags: {nsfw: false}} // Base Template 
+    return {phrase: e, tags: {nsfw: false, hasPleaseWait: false}} // Base Template 
     
   })
   .map(function(e) { //please wait Parce
     if(e.phrase.substring(0, 11).toLowerCase() == "please wait") { //Has Please Wait
       if(e.phrase.substring(11, 12) == ".") {
-        return mergeJson(e, {phrase: e.phrase.substring(13), includePleaseWait: true});
+        return mergeJson(e, {phrase: e.phrase.substring(13), tags: {hasPleaseWait: true}});
       }
-        return mergeJson(e, {phrase: e.phrase.substring(12), includePleaseWait: true});
+        return mergeJson(e, {phrase: e.phrase.substring(12), tags: {hasPleaseWait: true}});
     } else {
       return e;
     }

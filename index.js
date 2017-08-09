@@ -43,10 +43,12 @@ exports.phrase = function(opt) {
 		includeNSFW: false
 	}
 	opt = Object.assign({},defaultOpt, opt);
-
+	var returner = "";
 	if(opt.includePleaseWait) {
-		
+		returner = returner + "Please Wait. "
 	}
+
 	var lPl = Math.floor(Math.random() * loadingPhrases.length) + 0;
-	return loadingPhrases[lPl].phrase;
+	returner = returner + loadingPhrases[lPl].phrase;
+	return returner;
 }
