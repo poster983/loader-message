@@ -44,11 +44,13 @@ exports.phrase = function(opt) {
 	}
 	opt = Object.assign({},defaultOpt, opt);
 	var returner = "";
-	if(opt.includePleaseWait) {
-		returner = returner + "Please Wait. "
-	}
 
 	var lPl = Math.floor(Math.random() * loadingPhrases.length) + 0;
+	if(opt.includePleaseWait) {
+		if(loadingPhrases[lPl].hasPleaseWait) {
+			returner = returner + "Please Wait. "
+		}
+	}
 	returner = returner + loadingPhrases[lPl].phrase;
 	return returner;
 }
