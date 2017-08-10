@@ -1,13 +1,13 @@
 {
   "name": "loader-message",
-  "version": "1.2.4",
+  "version": "1.2.6",
   "description": "Lightweight NodeJS Module / Repository for delivering silly phrases to a loading screen near you",
   "main": "index.js",
   "scripts": {
     "prepublish": "npm test",
     "pretest": "node build.js",
     "test": "mocha",
-    "prepublishOnly": "browserify index.js -o loader-message.js"
+    "prepublishOnly": "browserify -r ./index.js:loader-message -o loader-message.js"
   },
   "repository": {
     "type": "git",

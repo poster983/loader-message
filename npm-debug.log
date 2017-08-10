@@ -1,0 +1,119 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Users\\josep\\Documents\\GitKraken\\loader-message',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\josep\AppData\Roaming\npm-cache\loader-message\1.2.5\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\josep\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle loader-message@1.2.5~prepublish: loader-message@1.2.5
+11 verbose lifecycle loader-message@1.2.5~prepublish: unsafe-perm in lifecycle true
+12 verbose lifecycle loader-message@1.2.5~prepublish: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\josep\Documents\GitKraken\loader-message\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Users\josep\AppData\Local\Microsoft\WindowsApps;C:\Users\josep\AppData\Roaming\npm
+13 verbose lifecycle loader-message@1.2.5~prepublish: CWD: C:\Users\josep\Documents\GitKraken\loader-message
+14 silly lifecycle loader-message@1.2.5~prepublish: Args: [ '/d /s /c', 'npm test' ]
+15 silly lifecycle loader-message@1.2.5~prepublish: Returned: code: 0  signal: null
+16 verbose tar pack [ 'C:\\Users\\josep\\AppData\\Roaming\\npm-cache\\loader-message\\1.2.5\\package.tgz',
+16 verbose tar pack   'C:\\Users\\josep\\Documents\\GitKraken\\loader-message' ]
+17 verbose tarball C:\Users\josep\AppData\Roaming\npm-cache\loader-message\1.2.5\package.tgz
+18 verbose folder C:\Users\josep\Documents\GitKraken\loader-message
+19 verbose addLocalTarball adding from inside cache C:\Users\josep\AppData\Roaming\npm-cache\loader-message\1.2.5\package.tgz
+20 verbose correctMkdir C:\Users\josep\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+21 silly cache afterAdd loader-message@1.2.5
+22 verbose afterAdd C:\Users\josep\AppData\Roaming\npm-cache\loader-message\1.2.5\package\package.json not in flight; writing
+23 verbose correctMkdir C:\Users\josep\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 verbose afterAdd C:\Users\josep\AppData\Roaming\npm-cache\loader-message\1.2.5\package\package.json written
+25 silly publish { name: 'loader-message',
+25 silly publish   version: '1.2.5',
+25 silly publish   description: 'Lightweight NodeJS Module / Repository for delivering silly phrases to a loading screen near you',
+25 silly publish   main: 'index.js',
+25 silly publish   scripts:
+25 silly publish    { prepublish: 'npm test',
+25 silly publish      pretest: 'node build.js',
+25 silly publish      test: 'mocha',
+25 silly publish      prepublishOnly: 'browserify -r ./index.js:loader-message -o loader-message.js' },
+25 silly publish   repository:
+25 silly publish    { type: 'git',
+25 silly publish      url: 'git+https://github.com/poster983/loader-message.git' },
+25 silly publish   keywords: [ 'loader', 'gen', 'generate', 'phrase', 'funny', 'loading' ],
+25 silly publish   author: { name: 'Joseph Hassell' },
+25 silly publish   license: 'MIT',
+25 silly publish   bugs: { url: 'https://github.com/poster983/loader-message/issues' },
+25 silly publish   homepage: 'https://github.com/poster983/loader-message#readme',
+25 silly publish   dependencies: { chai: '^4.1.1', mocha: '^3.5.0' },
+25 silly publish   devDependencies: { browserify: '^14.4.0' },
+25 silly publish   readme: '# loader-message  \n[![Build Status](https://travis-ci.org/poster983/loader-message.svg?branch=master)](https://travis-ci.org/poster983/loader-message)  \n\nLightweight NodeJS Module / Repository for delivering silly phrases to a loading screen near you  \n\n## Install \n\nRun `npm install loader-message --save` to build the list.  \n\n## Usage \n\nRequire it in your code:\n`var loaderMessage = require("loader-message");`\n\nIf you want a funny, creative phrase made by a human, use: \n`loaderMessage.phrase();`\n\nIf you want the module to generate a less creative phrase that sometimes doesn\'t make sense, use:\n`loaderMessage.generate();`\n\n## Contributing\n`npm test`\n### Phrases \nPlease open a PR and add your loading phrase to `phrases/loading.txt` \nOne phrase per line please.   \n\n### Generation \nPlease open a PR and add adjectives, plural nouns, and verbs ending in "ing" to `generation/adjective.js`, `generation/pluralNoun.js`, and `generation/verbING.js` respectively. \n\n## Licence \nMIT',
+25 silly publish   readmeFilename: 'README.md',
+25 silly publish   gitHead: 'fdd4d3dbb021d956203a5ddadc667a6f7898fe05',
+25 silly publish   _id: 'loader-message@1.2.5',
+25 silly publish   _shasum: '03a0e442ad745e0426735047347dc3d53e0c3d15',
+25 silly publish   _from: '.' }
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name loader-message
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'loader-message',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'loader-message',
+30 silly mapToRegistry   name: 'loader-message',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/loader-message
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading C:\Users\josep\AppData\Roaming\npm-cache\loader-message\1.2.5\package.tgz
+34 verbose request uri https://registry.npmjs.org/loader-message
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 9:01:26 PM
+37 verbose request using bearer token for auth
+38 verbose request id 0b96e9d7c36e304b
+39 http request PUT https://registry.npmjs.org/loader-message
+40 http 403 https://registry.npmjs.org/loader-message
+41 verbose headers { 'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '95',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Thu, 10 Aug 2017 02:01:27 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-iah17239-IAH',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1502330486.391956,VS0,VE755',
+41 verbose headers   vary: 'Accept-Encoding, Accept' }
+42 verbose request invalidating C:\Users\josep\AppData\Roaming\npm-cache\registry.npmjs.org\loader-message on PUT
+43 error publish Failed PUT 403
+44 verbose stack Error: "You cannot publish over the previously published version 1.2.5." : loader-message
+44 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+44 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+44 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+44 verbose stack     at emitTwo (events.js:106:13)
+44 verbose stack     at Request.emit (events.js:191:7)
+44 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+44 verbose stack     at emitOne (events.js:96:13)
+44 verbose stack     at Request.emit (events.js:188:7)
+44 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+45 verbose statusCode 403
+46 verbose pkgid loader-message
+47 verbose cwd C:\Users\josep\Documents\GitKraken\loader-message
+48 error Windows_NT 10.0.15063
+49 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+50 error node v6.11.2
+51 error npm  v3.10.10
+52 error code E403
+53 error "You cannot publish over the previously published version 1.2.5." : loader-message
+54 error If you need help, you may report this error at:
+54 error     <https://github.com/npm/npm/issues>
+55 verbose exit [ 1, true ]
