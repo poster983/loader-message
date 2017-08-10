@@ -8,17 +8,17 @@ var index = require("../index.js")
 
 
 context("Preset", function() {
-	describe("SFW", function() {
-		context("Loading Phrases Array", function() {
-			it("is an array", function(done) {
-				assert.isArray(loadingPhrases);
-				done()
-			})
-			it("is not empty", function(done) {
-				assert.isNotEmpty(loadingPhrases);
-				done();
-			})
-			it("only has objects", function(done) {
+	context("Loading Phrases Array", function() {
+		it("is an array", function(done) {
+			assert.isArray(loadingPhrases);
+			done()
+		})
+		it("is not empty", function(done) {
+			assert.isNotEmpty(loadingPhrases);
+			done();
+		})
+		context("each index position", function() {
+			it("is an object", function(done) {
 				for(var i = 0 ; i < loadingPhrases.length; i++) {
 					assert.isObject(loadingPhrases[i]);
 					if(i >= loadingPhrases.length -1) {
@@ -26,7 +26,7 @@ context("Preset", function() {
 					}
 				}
 			})
-			it("the object is not empty", function(done) {
+			it("is not empty", function(done) {
 				for(var i = 0 ; i < loadingPhrases.length; i++) {
 					assert.isNotEmpty(loadingPhrases[i]);
 					if(i >= loadingPhrases.length -1) {

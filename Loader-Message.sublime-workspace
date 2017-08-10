@@ -353,7 +353,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 769,
+				"buffer_size": 772,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -372,15 +372,6 @@
 			"settings":
 			{
 				"buffer_size": 3305,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "phrases/loading.json",
-			"settings":
-			{
-				"buffer_size": 9019,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -620,7 +611,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -649,7 +640,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -677,7 +668,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -686,15 +677,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 769,
+						"buffer_size": 772,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								47,
-								47
+								627,
+								629
 							]
 						],
 						"settings":
@@ -707,7 +698,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -768,36 +759,6 @@
 				},
 				{
 					"buffer": 5,
-					"file": "phrases/loading.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9019,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8565,
-								8569
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 7453.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "build.js",
 					"semi_transient": false,
 					"settings":
@@ -827,7 +788,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": ".travis.yml",
 					"semi_transient": false,
 					"settings":
@@ -853,11 +814,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "README.md",
 					"semi_transient": false,
 					"settings":
@@ -881,7 +842,7 @@
 						"translation.y": 70.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -940,12 +901,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 625.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\Users\\josep\\Documents\\GitKraken\\Passport-Live\\passport.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 475.0
 	},
 	"select_symbol":
 	{
