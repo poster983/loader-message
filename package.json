@@ -29,7 +29,7 @@
   "homepage": "https://github.com/poster983/loader-message#readme",
   "dependencies": {
     "chai": "^4.1.1",
-    "mocha": "^3.5.0"
+    "mocha": "^4.0.0"
   },
   "devDependencies": {
     "browserify": "^14.4.0"
