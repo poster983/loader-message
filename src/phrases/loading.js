@@ -1,4 +1,4 @@
-[
+export default [
   {
     "phrase": "˙sıɥʇ pɐǝɹ oʇ ƃuıʎɹʇ ɹoɟ pɹǝu ǝʌıssɐɯ ɐ ǝɹɐ noʎ",
     "tags": {
@@ -192,13 +192,6 @@
   },
   {
     "phrase": "My other load screen is much faster. You should try that one instead.",
-    "tags": {
-      "nsfw": false,
-      "hasPleaseWait": false
-    }
-  },
-  {
-    "phrase": "null",
     "tags": {
       "nsfw": false,
       "hasPleaseWait": false
@@ -456,4 +449,4 @@
       "hasPleaseWait": false
     }
   }
-]
+];

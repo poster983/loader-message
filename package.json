@@ -1,13 +1,14 @@
 {
   "name": "loader-message",
-  "version": "1.2.7",
+  "version": "2.0.0",
   "description": "Lightweight NodeJS Module / Repository for delivering silly phrases to a loading screen near you",
-  "main": "index.js",
+  "main": "loader-message.js",
   "scripts": {
     "prepublish": "npm test",
-    "pretest": "node build.js",
+    "pretest": "npm run-script build",
     "test": "mocha",
-    "prepublishOnly": "browserify -r ./index.js:loader-message -o loader-message.js"
+    "prepublishOnly": "npm run build",
+    "build": "node ./src/buildPhrases.js && rollup --config"
   },
   "repository": {
     "type": "git",
@@ -28,10 +29,11 @@
   },
   "homepage": "https://github.com/poster983/loader-message#readme",
   "dependencies": {
-    "chai": "^4.1.1",
-    "mocha": "^4.0.0"
   },
   "devDependencies": {
-    "browserify": "^14.4.0"
+    "rollup": "^0.58.2",
+    "rollup-plugin-uglify": "^3.0.0",
+    "chai": "^4.1.1",
+    "mocha": "^4.0.0"
   }
 }

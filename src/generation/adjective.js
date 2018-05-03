@@ -1,4 +1,4 @@
-module.exports = [
+export default [
 "adorable",
 "nice",
 "fat",
@@ -10,5 +10,3 @@ module.exports = [
 "red",
 "ordinary"
 ];
-
-//module.exports = {}

@@ -2,7 +2,7 @@
 var fs       = require("fs")
 var infile   = __dirname + '/phrases/loading.txt'
 var outfile_pre  = __dirname + '/phrases/loading'
-var outfile_json = outfile_pre + '.json'
+var outfile_js = outfile_pre + '.js'
 var outfile_txt = outfile_pre + '.txt'
 
 function mergeJson(base, json) {
@@ -33,8 +33,8 @@ var list = fs
   .sort(function (a, b) {
     return a.phrase.toLowerCase().localeCompare(b.phrase.toLowerCase());
   })
-
-fs.writeFileSync(outfile_json, JSON.stringify(list, null, 2))
+//dumb ES6 dosn't let you import json 
+fs.writeFileSync(outfile_js, "export default " + JSON.stringify(list, null, 2) + ";");
 
 /*
 fs.writeFileSync(outfile_txt, list.reduce(

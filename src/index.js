@@ -22,35 +22,47 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-var noun = require("./generation/pluralNoun");
-var adjective = require("./generation/adjective");
-var verb = require("./generation/verbING");
-var loadingPhrases = require("./phrases/loading.json")
-
-exports.generate = function() {
+import noun from "./generation/pluralNoun";
+import adjective from "./generation/adjective";
+import verb from "./generation/verbING";
+import loadingPhrases from "./phrases/loading.js";
+const source = {noun, adjective, verb, phrases: loadingPhrases};
+export {source};
+/*const noun = require("./generation/pluralNoun");
+const adjective = require("./generation/adjective");
+const verb = require("./generation/verbING");
+const phrases = require("./phrases/loading.json");*/
+/**
+ * Generates a phrase from a noun, adjective and verb
+ * @returns {String}
+ */
+export const generate = () => {
 	var nl = Math.floor(Math.random() * noun.length) + 0;
 	var al = Math.floor(Math.random() * adjective.length) + 0;
 	var vl = Math.floor(Math.random() * verb.length) + 0;
 	return verb[vl] + " " + adjective[al] + " " + noun[nl];
-}
+};
 
 /**
-  * 
-  */
-exports.phrase = function(opt) {
+ * Picks a creative phrase from the phrases file
+ * @param {Object} [options] 
+ * @param {Boolean} [includePleaseWait=true] - If the loading message has "please wait", it will be included in the string
+ * @returns {String}
+ */
+export const phrase = (options) => {
 	var defaultOpt = {
 		includePleaseWait: true, 
 		includeNSFW: false
 	}
-	opt = Object.assign({},defaultOpt, opt);
+	options = Object.assign({},defaultOpt, options);
 	var returner = "";
 
 	var lPl = Math.floor(Math.random() * loadingPhrases.length) + 0;
-	if(opt.includePleaseWait) {
+	if(options.includePleaseWait) {
 		if(loadingPhrases[lPl].hasPleaseWait) {
 			returner = returner + "Please Wait. "
 		}
 	}
 	returner = returner + loadingPhrases[lPl].phrase;
 	return returner;
-}
+};

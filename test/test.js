@@ -1,10 +1,10 @@
 var chai = require('chai');
 var assert = chai.assert;
-var loadingPhrases = require("../phrases/loading.json");
-var genAdj = require("../generation/adjective.js");
-var genNoun = require("../generation/pluralNoun.js");
-var genVerb = require("../generation/verbING.js");
-var index = require("../index.js")
+let index = require("../loader-message.js");
+var loadingPhrases = index.source.phrases;
+var genAdj = index.source.adjective;
+var genNoun = index.source.noun
+var genVerb = index.source.verb
 
 
 context("Preset", function() {

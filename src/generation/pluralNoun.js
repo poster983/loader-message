@@ -1,4 +1,4 @@
-module.exports = [
+export default [
 "goatherd",
 "post-processor",
 "star systems",
@@ -15,4 +15,4 @@ module.exports = [
 "moo moos",
 "penguins",
 "astronauts"
-]
+];
