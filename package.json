@@ -7,7 +7,6 @@
     "prepublish": "npm test",
     "pretest": "npm run-script build",
     "test": "mocha",
-    "prepublishOnly": "npm run build",
     "build": "node ./src/buildPhrases.js && rollup --config"
   },
   "repository": {
