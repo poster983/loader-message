@@ -4,7 +4,7 @@
   "description": "Lightweight NodeJS Module / Repository for delivering silly phrases to a loading screen near you",
   "main": "loader-message.js",
   "scripts": {
-    "prepublish": "npm test",
+    "prepublishOnly": "npm test",
     "pretest": "npm run-script build",
     "test": "mocha",
     "build": "node ./src/buildPhrases.js && rollup --config"
