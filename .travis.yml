@@ -3,6 +3,8 @@ install:
 - npm install
 node_js:
 - node
+- '9'
+- '8'
 - '6'
 - '5'
 - '4'
