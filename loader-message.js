@@ -557,7 +557,7 @@ SOFTWARE.
 
   	var lPl = Math.floor(Math.random() * loadingPhrases.length) + 0;
   	if(options.includePleaseWait) {
-  		if(loadingPhrases[lPl].hasPleaseWait) {
+  		if(loadingPhrases[lPl].tags.hasPleaseWait) {
   			returner = returner + "Please Wait. ";
   		}
   	}
